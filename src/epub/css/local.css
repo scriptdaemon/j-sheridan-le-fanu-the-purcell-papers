@@ -1,2 +1,84 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
+p span.i3{
+	text-indent: -1em;
+	padding-left: 4em;
+}
+
+p span.i4{
+	text-indent: -1em;
+	padding-left: 5em;
+}
+
+p span.i5{
+	text-indent: -1em;
+	padding-left: 6em;
+}
+
+p span.i6{
+	text-indent: -1em;
+	padding-left: 7em;
+}
+
+p span.i7{
+	text-indent: -1em;
+	padding-left: 8em;
+}
+
+p span.i8{
+	text-indent: -1em;
+	padding-left: 9em;
+}
+
+p span.i9{
+	text-indent: -1em;
+	padding-left: 10em;
+}
+
+p span.i10{
+	text-indent: -1em;
+	padding-left: 11em;
+}
+
+abbr.name{
+	white-space: nowrap;
+}
+
+b{
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+.signature{
+	font-variant: small-caps;
+}
